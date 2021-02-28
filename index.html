@@ -15,7 +15,7 @@
     <body>
         
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-info">
+            <nav class="navbar navbar-expand-lg navbar-light bg-info border-secondary">
                 <div class="container-fluid">
                 <span class="navbar-brand mb-0 h1" href="#">Hunter Barton Portfolio</span>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,13 +41,13 @@
             </nav>           
         </header>
 
-        <!-- <div class="hero"></div> -->
+        <div class="hero"></div>
 
         <main>
 
             <section id="about-me" class="section-style">
                                
-                <div class="card text-dark bg-info mb-3">
+                <div class="card border-secondary text-dark bg-info mb-3">
                     <h1 class="card-header">About Me</h1> 
                     <div class="card-body">
                         My name is Hunter Barton and I am a 23 year old software developer 
@@ -66,19 +66,41 @@
             </section>
 
             <section id="my-work" class="section-style">
-                <div class="card text-dark bg-info mb-3">
+                <div class="card text-dark bg-info mb-3 border-secondary">
                     <h1 class="card-header">My Work</h1>
                     <img src="assets/images/hifi-workshop.PNG" class="card-img-top" alt="..." style="padding-left: 1%; padding-right: 1%;">
                     <div class="card-body">
                       <h5 class="card-title">Hi-Fi Workshop Site</h5>
                       <p class="card-text">I built this site originally while I was working at Hi-Fi Workshop. It was made using Squarespace and was my first real dive into web design.</p>
-                      <a href="https://www.hifiworkshop.com/" class="btn btn-primary">Go there!</a>
+                      <a href="https://www.hifiworkshop.com/" class="btn btn-outline-dark">Go there!</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                      <div class="card text-dark bg-info mb-3 border-secondary">
+                        <img src="assets/images/entheos.PNG" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Entheos Live Video (4k)</h5>
+                          <p class="card-text">A video I filmed at a concert that I am extremely proud of.</p>
+                          <a href="https://www.youtube.com/watch?v=BP8ec8usVwo" class="btn btn-outline-dark">Watch Now!</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="card text-dark bg-info mb-3 border-secondary">
+                        <img src="assets/images/leo.PNG" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Leo and the Libra Live (4k)</h5>
+                          <p class="card-text">Another concert video that I worked very hard on.</p>
+                          <a href="https://www.youtube.com/watch?v=MffBxF4gpfU" class="btn btn-outline-dark">Watch Now!</a>
+                        </div>
+                      </div>
                     </div>
                   </div>
             </section>
 
             <section id="photo-portfolio" class="section-style">
-                <div class="card text-dark bg-info mb-3">
+                <div class="card text-dark bg-info mb-3 border-secondary">
                     <h1 class="card-header">My Photography</h1>
                     <div class="card-body">
                         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -145,6 +167,51 @@
                         </div>
                     </div>
                   </div>
+            </section>
+
+            <section id="contact-me" class="section-style">
+                <div class="card text-dark bg-info mb-3">
+                    <h1 class="card-header">Contact Me</h1>                    
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                      <div class="card text-dark bg-info mb-3">
+                        <div class="card-body">
+                          <h5 class="card-title">Phone</h5>
+                          <p class="card-text">(520-780-9324)</p>
+                          <a href="tel:520-780-9324" class="btn btn btn-outline-dark">Call Me!</a>                          
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="card text-dark bg-info mb-3">
+                        <div class="card-body">
+                          <h5 class="card-title">Email</h5>
+                          <p class="card-text">hunterblakebarton@gmail.com</p>
+                          <a href="mailto:hunterblakebarton@gmail.com" class="btn btn btn-outline-dark">Email Me!</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card text-dark bg-info mb-3">
+                          <div class="card-body">
+                            <h5 class="card-title">Github</h5>
+                            <p class="card-text">User: MythosMystery</p>
+                            <a href="https://github.com/mythosmystery" class="btn btn btn-outline-dark">Check it out!</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card text-dark bg-info mb-3">
+                          <div class="card-body">
+                            <h5 class="card-title">Youtube</h5>
+                            <p class="card-text">User: Hunter Barton</p>
+                            <a href="https://www.youtube.com/c/TheAxiys" class="btn btn-outline-dark">Check it out!</a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+
             </section>
 
         </main>
