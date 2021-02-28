@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+
 <html>
     <head>
         <meta charset="utf-8">
@@ -11,14 +8,78 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="assets/style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     </head>
+
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
         
-        <h1 class="hello">Hello World</h1>    
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <div class="container-fluid">
+                <span class="navbar-brand mb-0 h1" href="#">Hunter Barton Portfolio</span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item pe-lg-4">
+                        <a class="nav-link active" aria-current="page" href="#about-me">About Me</a>
+                    </li>
+                    <li class="nav-item pe-lg-4">
+                        <a class="nav-link" href="#my-work">My Work</a>
+                    </li>
+                    <li class="nav-item pe-lg-4">
+                        <a class="nav-link" href="#photo-portfolio">Photography Portfolio</a>
+                    </li>
+                    <li class="nav-item pe-lg-4">
+                        <a class="nav-link" href="#contact-me">Contact Me</a>
+                    </li>                    
+                    </ul>
+                </div>
+                </div>
+            </nav>           
+        </header>
+
+        <div class="hero"></div>
+
+        <main>
+
+            <section id="about-me" class="section-style">
+                               
+                <div class="card">
+                    <h1 class="card-header">About Me</h1> 
+                    <div class="card-body">
+                        My name is Hunter Barton and I am a 23 year old software developer 
+                        and photographer. I took a photography class in highschool and that got me 
+                        interested. About 4 years ago I got my first real camera and started taking pictures
+                        of everything I could see. Not long after that I started recording video too. 
+                        I have filmed several concerts and would like to do more once live music is back. 
+                        I have been programming for about 5 years, but I have had an interest since a young age 
+                        because of my Dad who is also a programmer. I started with Java and have moved on to 
+                        learning the MERN stack. I have taken programming classes at Pima Community College in 
+                        Tucson, AZ. I am currently working through the programming bootcamp at GA Tech. 
+                        As well as a passion for software I also have a passion for electronics. I worked as an 
+                        audio electronics technician for nearly 5 years. 
+                    </div>
+                  </div>
+            </section>
+
+            <section id="my-work" class="section-style">
+                <div class="card">
+                    <h1 class="card-header">My Work</h1>
+                    <img src="/Main/assets/images/hifi-workshop.PNG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Hi-Fi Workshop Site</h5>
+                      <p class="card-text">I built this site originally while I was working at Hi-Fi Workshop. It was made using Squarespace and was my first real dive into web design.</p>
+                      <a href="https://www.hifiworkshop.com/" class="btn btn-primary">Go there!</a>
+                    </div>
+                  </div>
+            </section>
+
+        </main>
 
         <script src="assets/script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     </body>
+
 </html>

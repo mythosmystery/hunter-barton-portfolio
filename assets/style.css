@@ -1,3 +1,54 @@
-.hello{
-    color:blue;
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
+
+body{
+    background-color:rgb(5, 163, 184);
+}
+
+p{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    font-size: 18px;
+    font-family: monospace;
+}
+h1{
+    font-family:monospace;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.hero {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+main{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;    
+}
+.section-style{
+    padding-bottom: 35px;
+}
+
+
+
+
